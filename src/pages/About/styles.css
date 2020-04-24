@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-content {
+    width: 446px;
+    height: 228px;
+    margin-left: 20px;
+
+    background: #EEEEEE;
+    border: 0.807281px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3.22912px 3.22912px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+
+
+p {
+    color: #333333;
+    line-height: 20px;
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.button-download {
+    width: 622px;
+    height: 76px;
+    margin-top: 40px;
+
+    background: #333333;
+    border: 0.807281px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3.22912px 3.22912px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.text-download {
+    color: #E02041;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 60px;
+}

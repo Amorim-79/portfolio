@@ -1,0 +1,118 @@
+.container {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 4rem;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.box-email {
+    width: 524px;
+    height: 537px;
+
+    margin-right: 80px;
+
+    background: #EEEEEE;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box-phone {
+    width: 292px;
+    height: 331px;
+
+    background: #EEEEEE;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-phone p {
+    color: #333333;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 50px;
+
+}
+
+.button-contact {
+    width: 148px;
+    height: 37px;
+    
+    background: #E02041;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+
+    cursor: pointer;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #333333;
+    margin: 40px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 20px;
+    font-size: 1.8rem;
+}
+
+form input,
+form textarea {
+    width: 350px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: 1px solid #dcdce6;
+    
+    margin-left: 5px;
+    margin-bottom: 10px;
+
+    color: #333333;
+}
+
+label textarea {
+    vertical-align: top;
+}
+
+form textarea {
+    width: 311px;
+    height: 220px;
+    resize: none;
+
+    line-height: 24px;
+    
+}
+
+form input {
+    height: 27px;
+}
+
+form button {
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 70px;
+}
