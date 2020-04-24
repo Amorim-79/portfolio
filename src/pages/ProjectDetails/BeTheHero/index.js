@@ -25,8 +25,10 @@ export default function ProjectBeTheHero() {
 
                         <p>
                             <h2>LINKS:</h2>
-                            <p>Repositório:</p>
-                            <p>Site:</p>
+                            <p>Repositório:<a target="_blank" href="https://github.com/Amorim-79/be-the-hero">
+                                https://github.com/Amorim-79/be-the-hero
+                                </a>
+                            </p>
                         </p>
 
                     </div>

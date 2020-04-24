@@ -33,7 +33,7 @@ export default function About() {
 
                     <a target="_blank" href="https://drive.google.com/open?id=13l9jYUq-ySN4fNqI7b00LCHCW0NZlVEz" className="button-download">
                         <p className="text-download">
-                        Visualize aqui o currículo
+                        Visualize o currículo
                         <FiArrowRight size={35} style={{marginLeft: '15px'}} />
                         </p>
                     </a>

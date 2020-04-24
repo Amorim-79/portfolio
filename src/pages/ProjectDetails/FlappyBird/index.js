@@ -21,8 +21,14 @@ export default function ProjectFlappy() {
 
                         <p>
                             <h2>LINKS:</h2>
-                            <p>Repositório:</p>
-                            <p>Site:</p>
+                            <p>Repositório:<a target="_blank" href="https://github.com/Amorim-79/flappy-bird">
+                                https://github.com/Amorim-79/flappy-bird
+                                </a>
+                            </p>
+                            <p>Site:<a target="_blank" href="https://amorim-79.github.io/flappy-bird/Flappy-Bird/index.html">
+                               https://amorim-79.github.io/flappy-bird/Flappy-Bird/index.html
+                                </a>
+                            </p>
                         </p>
                     </div>
 
