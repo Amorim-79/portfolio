@@ -11,22 +11,20 @@ export default function Contact() {
     const [name, setName] = useState('')
     const [title, setTitle] = useState('')
     const [message, setMessage] = useState('')
+    const [email, setEmail] = useState('')
 
     async function handleSubmit(e) {
         e.preventDefault()
 
-        try {
-            await api.post('/send', {
-                name,
-                title,
-                message
-            })
+        await api.post('/send', {
+            name,
+            title,
+            message,
+            email
+        })
 
-            alert('Email enviado com sucesso.')
-
-        }catch(err) {
-            alert('Email enviado com sucesso.')
-        }
+        alert('Email enviado com sucesso.')
+        
     }
 
     return(
@@ -45,6 +43,14 @@ export default function Contact() {
                                 <input 
                                 value={name}
                                 onChange={e => setName(e.target.value)}
+                                />
+                            </label>
+
+                            <label>
+                                E-mail:
+                                <input 
+                                value={email}
+                                onChange={e => setEmail(e.target.value)}
                                 />
                             </label>
 

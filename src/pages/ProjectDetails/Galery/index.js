@@ -23,7 +23,7 @@ export default function ProjectGalery() {
 
                         <p>
                             <h2>LINKS:</h2>
-                            <p>Repositório: <a target="_blank" href="https://github.com/Amorim-79/Galeria">
+                            <p>Repositório:<a target="_blank" href="https://github.com/Amorim-79/Galeria">
                                 https://github.com/Amorim-79/Galeria
                                 </a>
                             </p>

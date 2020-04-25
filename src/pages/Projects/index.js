@@ -4,7 +4,7 @@ import {FiArrowRight} from 'react-icons/fi'
 
 import './styles.css'
 
-import imgFlappy from '../../assets/imgsProjects/flappy/projectFlappy.jpg'
+import imgFlappy from '../../assets/imgsProjects/flappy/projectFlappy1.jpg'
 import imgBeTheHero from '../../assets/imgsProjects/be-the-hero/betheherothumb.png'
 import imgGalery from '../../assets/imgsProjects/galery/projectGalery1.jpg'
 

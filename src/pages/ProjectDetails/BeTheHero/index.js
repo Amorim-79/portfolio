@@ -6,7 +6,10 @@ import '../styles.css'
 
 import Footer from '../../Fixed/Footer'
 
-import imgBeTheHero from '../../../assets/imgsProjects/be-the-hero/betheherothumb.png'
+import imgBeTheHero1 from '../../../assets/imgsProjects/be-the-hero/betheherothumb.png'
+import imgBeTheHero2 from '../../../assets/imgsProjects/be-the-hero/projectBeTheHero1.JPG'
+import imgBeTheHero3 from '../../../assets/imgsProjects/be-the-hero/projectBeTheHero2.JPG'
+import imgBeTheHero4 from '../../../assets/imgsProjects/be-the-hero/projectBeTheHero3.JPG'
 
 export default function ProjectBeTheHero() {
     return (
@@ -34,7 +37,10 @@ export default function ProjectBeTheHero() {
                     </div>
 
                     <div className="box-images">
-                        <img className="images-project" src={imgBeTheHero} />
+                        <img className="images-project" src={imgBeTheHero1} />
+                        <img className="images-project" src={imgBeTheHero2} />
+                        <img className="images-project" src={imgBeTheHero3} />
+                        <img className="images-project" src={imgBeTheHero4} />
                     </div>
 
                     <Link to="/projects" className="link">

@@ -4,7 +4,9 @@ import { FiArrowLeft } from 'react-icons/fi'
 
 import '../styles.css'
 
-import imgFlappy from '../../../assets/imgsProjects/flappy/projectFlappy.jpg'
+import imgFlappy1 from '../../../assets/imgsProjects/flappy/projectFlappy1.jpg'
+import imgFlappy2 from '../../../assets/imgsProjects/flappy/projectFlappy2.jpg'
+import imgFlappy3 from '../../../assets/imgsProjects/flappy/projectFlappy3.jpg'
 
 import Footer from '../../Fixed/Footer'
 
@@ -33,7 +35,9 @@ export default function ProjectFlappy() {
                     </div>
 
                     <div className="box-images">
-                        <img className="images-project" src={imgFlappy} />
+                        <img className="images-project" src={imgFlappy1} />
+                        <img className="images-project" src={imgFlappy2} />
+                        <img className="images-project" src={imgFlappy3} />
                     </div>
 
                     <Link to="/projects" className="link">
