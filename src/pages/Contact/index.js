@@ -40,7 +40,8 @@ export default function Contact() {
                         <form method="post" onSubmit={handleSubmit}>
                             <label>
                                 Nome:
-                                <input 
+                                <input
+                                required
                                 value={name}
                                 onChange={e => setName(e.target.value)}
                                 />
@@ -48,7 +49,9 @@ export default function Contact() {
 
                             <label>
                                 E-mail:
-                                <input 
+                                <input
+                                type="email"
+                                required
                                 value={email}
                                 onChange={e => setEmail(e.target.value)}
                                 />
@@ -57,6 +60,7 @@ export default function Contact() {
                             <label>
                                 Título:
                                 <input
+                                required
                                 value={title}
                                 onChange={e => setTitle(e.target.value)}
                                 />
@@ -65,6 +69,7 @@ export default function Contact() {
                             <label>
                                 Mensagem:
                                 <textarea
+                                required
                                 value={message}
                                 onChange={e => setMessage(e.target.value)}
                                 />
