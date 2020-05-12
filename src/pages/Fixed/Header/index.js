@@ -5,7 +5,7 @@ import logoImg from '../../../assets/newLogoAmorim.svg'
 import { Link } from 'react-router-dom'
 
 export default function Header() {
-    const [toggle, setToggle] = useState("")
+    const [toggle, setToggle] = useState("menu-section")
     const [show, setShow] = useState(false)
 
     function menuToggle() {
@@ -27,8 +27,8 @@ export default function Header() {
                 <img className="logo-style" src={logoImg} />
             </Link>
 
-            <div className={toggle} onClick={menuToggle}>
-                <div className="menu-toggle">
+            <div className={toggle}>
+                <div className="menu-toggle" onClick={menuToggle}>
                     <div className="one"></div>
                     <div className="two"></div>
                     <div className="three"></div>
