@@ -5,9 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
-import ProjectFlappy from './pages/ProjectDetails/FlappyBird'
-import ProjectBeTheHero from './pages/ProjectDetails/BeTheHero'
-import ProjectGalery from './pages/ProjectDetails/Galery'
+import ProjectDetails from './pages/ProjectDetails'
 
 export default function Routes() {
     return (
@@ -17,10 +15,7 @@ export default function Routes() {
                 <Route path="/about" component={About} />
                 <Route path="/projects" component={Projects} />
                 <Route path="/contact" component={Contact} />
-
-                <Route path="/project/details/flappy-bird" component={ProjectFlappy} />
-                <Route path="/project/details/be-the-hero" component={ProjectBeTheHero} />
-                <Route path="/project/details/galery" component={ProjectGalery} />
+                <Route path="/project/details/:tag" component={ProjectDetails} />
             </Switch>
         </BrowserRouter>
     )

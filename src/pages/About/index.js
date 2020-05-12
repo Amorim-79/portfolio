@@ -20,7 +20,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <div className="box-content" style={{marginTop: '300px'}} >
+                    <div className="box-content" >
                         <p className="group-skills">
                             <p className="skill">Conhecimentos: <br/>
                                 HTML5/CSS3 <span className="linha">|</span> Javascript <span className="linha">|</span> Java.</p>
@@ -34,8 +34,8 @@ export default function About() {
                     <a target="_blank" href="https://drive.google.com/open?id=13l9jYUq-ySN4fNqI7b00LCHCW0NZlVEz" className="button-download">
                         <p className="text-download">
                         Visualize o currículo
-                        <FiArrowRight size={35} style={{marginLeft: '15px'}} />
                         </p>
+                        <FiArrowRight size={35} color="#E02041" style={{marginLeft: '15px'}} />
                     </a>
                 </main>
                 <Footer />

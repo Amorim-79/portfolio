@@ -62,3 +62,15 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 730px) {
+    .container-info p {
+        font-size: 2rem;
+    }
+
+}
+@media (max-width: 560px) {
+    .container-info p {
+        font-size: 1.5rem;
+    }
+}

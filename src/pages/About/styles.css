@@ -9,6 +9,7 @@
     width: 446px;
     height: 228px;
     margin-left: 20px;
+    margin-right: 20px;
 
     background: #EEEEEE;
     border: 0.807281px solid rgba(0, 0, 0, 0.2);
@@ -19,6 +20,10 @@
     align-items: center;
     justify-content: center;
     padding: 0 20px;
+}
+
+div.box-content + div.box-content {
+    margin-top: 300px;
 }
 
 
@@ -59,4 +64,27 @@ p {
     font-size: 4.5rem;
     font-weight: bold;
     line-height: 60px;
+}
+
+@media (max-width: 935px) {
+    div.box-content + div.box-content {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-download {
+        font-size: 3rem;
+        line-height: 90px;
+    }
+}
+
+@media (max-width: 340px) {
+    .text-download {
+        font-size: 2.5rem;
+        line-height: 90px;
+    }
+    p {
+        font-size: 1.5rem;
+    }
 }

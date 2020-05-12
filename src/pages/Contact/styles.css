@@ -116,3 +116,30 @@ form button {
     margin-top: 10px;
     margin-right: 70px;
 }
+
+@media (max-width: 895px) {
+    .box-email {
+        flex-basis: 100%;
+        max-width: 524px;
+        margin: 10px;
+    }
+
+    .box-phone{
+        flex-basis: 100%;
+        max-width: 292px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 475px) {
+    .box-email {
+        height: auto;
+    }
+}
+
+@media (max-width: 405px) {
+    form input,
+    form textarea {
+        width: 250px;
+    }
+}

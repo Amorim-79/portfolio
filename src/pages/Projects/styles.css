@@ -19,7 +19,6 @@
     margin: 20px;
 
     flex-basis: 40%;
-    flex-shrink: 0;
 }
 
 .thumb-project {
@@ -40,4 +39,16 @@
     font-weight: 400;
     font-size: 3rem;
     margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+    .thumb-project {
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 700px) {
+    .box-project {
+        flex-basis: 80%;
+    }
 }
