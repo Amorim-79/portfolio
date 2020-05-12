@@ -21,6 +21,10 @@ export default function Header() {
         }
     }
 
+    function clearToggle() {
+        document.body.style.overflow = "initial"
+    }
+
     return (
         <div className="header-container">
             <Link to="/">
@@ -34,13 +38,13 @@ export default function Header() {
                     <div className="three"></div>
                 </div>
                 <nav>
-                    <Link className="link-nav" to="/about">
+                    <Link className="link-nav" to="/about" onClick={clearToggle}>
                         Sobre
                     </Link>
-                    <Link className="link-nav" to="/projects">
+                    <Link className="link-nav" to="/projects" onClick={clearToggle}>
                         Projetos
                     </Link>
-                    <Link className="link-nav" to="/contact">
+                    <Link className="link-nav" to="/contact" onClick={clearToggle}>
                         Contato
                     </Link>
                 </nav>
