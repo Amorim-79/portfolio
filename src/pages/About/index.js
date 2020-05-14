@@ -27,11 +27,11 @@ export default function About() {
                             <p className="skill">Principais tecnologias: <br/>
                                 ReactJs <span className="linha">|</span> NodeJs <span className="linha">|</span> ReactNativeJs <span className="linha">|</span> Git / Github</p>
                             <p className="skill">Outras tecnologias: <br/>
-                                Bootstrap <span className="linha">|</span> jQuery <span className="linha">|</span> Vue JS <span className="linha">|</span> MySQL <span className="linha">|</span> Gulp <span className="linha">|</span> Webpack.</p>
+                                Bootstrap <span className="linha">|</span> jQuery <span className="linha">|</span> Vue JS <span className="linha">|</span> SQL <span className="linha">|</span> Gulp <span className="linha">|</span> Webpack <span className="linha">|</span> MongoDB.</p>
                         </p>
                     </div>
 
-                    <a target="_blank" href="https://drive.google.com/open?id=13l9jYUq-ySN4fNqI7b00LCHCW0NZlVEz" className="button-download">
+                    <a target="_blank" href="https://drive.google.com/open?id=1Nl6EN8Lf3RDfVanmHMIvuRqMiCT8Jmog" className="button-download">
                         <p className="text-download">
                         Visualize o currículo
                         </p>
