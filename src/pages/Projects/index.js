@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import {Link} from 'react-router-dom'
-import {FiArrowRight} from 'react-icons/fi'
+import { Link } from 'react-router-dom'
+import { FiArrowRight } from 'react-icons/fi'
+import ReactLoading from 'react-loading'
 
 import api from '../../services/api'
 import './styles.css'
@@ -24,24 +25,27 @@ export default function Projects() {
         loadProjects()
     }, [])
 
-    return(
+    return (
         <div className="page">
             <>
                 <Header />
-                <main className="container">
-                    {projects.map(project => (
-                        <div className="box-project">
-                        <img className="thumb-project" src={project.images[0]}></img>
-                        <h1>{project.name}</h1>
+                {projects.length > 0 ?
+                    <main className="container">
+                        {projects.map(project => (
+                            <div className="box-project">
+                                <img className="thumb-project" src={project.images[0]}></img>
+                                <h1>{project.name}</h1>
 
-                        <Link to={`/project/details/${project.tag}`} className="link">
-                        Mais detalhes
+                                <Link to={`/project/details/${project.tag}`} className="link">
+                                    Mais detalhes
                         <FiArrowRight size={20} />
-                        </Link>
-                    </div>
-                    ))}
+                                </Link>
+                            </div>
+                        ))}
 
-                </main>
+                    </main> :
+                    <ReactLoading className="loading" type={'spinningBubbles'} color={'#E02041'} height={'10%'} width={'10%'} />}
+
                 <Footer />
             </>
         </div>

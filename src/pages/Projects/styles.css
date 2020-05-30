@@ -41,6 +41,12 @@
     margin-bottom: 0;
 }
 
+.loading {
+    position: relative;
+    left: 45%;
+    top: 45%
+}
+
 @media (max-width: 800px) {
     .thumb-project {
         max-width: 280px;
