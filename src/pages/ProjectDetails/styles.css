@@ -31,15 +31,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .content-detail h1 {
     flex-basis: 100%;
     line-height: 10px;
     margin-top: 30px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     align-self: flex-start;
+    
 }
 
 .box-detail {
@@ -49,7 +50,8 @@
     margin-top: 20px;
     margin-bottom: 20px;
 
-    background: #333333;
+    background: #DDD;
+
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
@@ -63,7 +65,7 @@
 }
 
 .box-detail p {
-    color: #EEEEEE;
+    color: #333;
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 10px;
@@ -74,18 +76,18 @@
 }
 
 .box-detail h2 {
-    color: #EEEEEE;
+    color: #333;
     margin-top: 150px;
 }
 
-.box-images {
-    justify-content: flex-start;
-}
-
 .images-project {
-    max-width: 250px;   
+    max-width: 255px;   
     height: 160px;
     margin: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
 }
 
 .box-images {
@@ -95,7 +97,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 
-    background: #333333;
+    background: #DDD;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
@@ -106,13 +108,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     
-    padding: 10px 10px;
 }
 
 a {
     text-decoration: none;
-    color: #EEEEEE;
+    color: #333;
     margin-left: 5px;
+    font-weight: bold;
 }
 
 @media (max-width: 665px) {
@@ -122,5 +124,9 @@ a {
 
     .box-images {
         flex-basis: 100%;
+    }
+
+    .content-detail {
+        width: 98%;
     }
 }

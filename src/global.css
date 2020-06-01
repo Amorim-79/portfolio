@@ -38,6 +38,7 @@ main {
     margin: 0 10px 10px 0;
     text-decoration: none;
     color: #E02041;
+    font-weight: bold;
     align-self: flex-end;
 
     display: flex;
