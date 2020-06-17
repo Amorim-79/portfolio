@@ -32,7 +32,7 @@ export default function Projects() {
                 {projects.length > 0 ?
                     <main className="container">
                         {projects.map(project => (
-                            <div className="box-project">
+                            <div key={project._id} className="box-project">
                                 <img className="thumb-project" src={project.images[0]}></img>
                                 <h1>{project.name}</h1>
 

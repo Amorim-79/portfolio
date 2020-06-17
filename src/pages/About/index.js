@@ -18,18 +18,18 @@ export default function About() {
                                 Meu nome é Pedro, sou um estudante de Ciência da computação cursando atualmente o 5º semestre.
                                 Tenho focado meus estudos em desenvolvimento fullstack para web e mobile,
                                 a cada dia buscando por novos conhecimentos e desafios para alcançar meus objetivos como desenvolvedor.
-                        </p>
+                            </p>
                         </div>
 
                         <div className="box-content" >
-                            <p className="group-skills">
+                            <div className="group-skills">
                                 <p className="skill">Conhecimentos: <br />
                                 HTML5/CSS3 <span className="linha">|</span> Javascript <span className="linha">|</span> Bootstrap
                                 <span className="linha"> |</span> jQuery <span className="linha"> |</span> VueJS <span className="linha">|</span> SQL
                                 <span className="linha">|</span> Gulp <span className="linha">|</span> Webpack <span className="linha"> |</span> MongoDB <span className="linha">|</span> Git / Github <span className="linha">|</span> Jest.</p>
                                 <p className="skill">Principais tecnologias: <br />
                                 ReactJs <span className="linha">|</span> NodeJs <span className="linha">|</span> ReactNativeJs</p>
-                            </p>
+                            </div>
                         </div>
                     </div>
 
