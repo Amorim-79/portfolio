@@ -24,11 +24,14 @@ export default function About() {
                         <div className="box-content" >
                             <div className="group-skills">
                                 <p className="skill">Conhecimentos: <br />
-                                HTML5/CSS3 <span className="linha">|</span> Javascript <span className="linha">|</span> Bootstrap
-                                <span className="linha"> |</span> jQuery <span className="linha"> |</span> VueJS <span className="linha">|</span> SQL
-                                <span className="linha">|</span> Gulp <span className="linha">|</span> Webpack <span className="linha"> |</span> MongoDB <span className="linha">|</span> Git / Github <span className="linha">|</span> Jest.</p>
+                                HTML5/CSS3<span className="linha">|</span>Javascript<span className="linha">|</span>Bootstrap
+                                <span className="linha">|</span>jQuery<span className="linha">|</span>
+                                <br/>
+                                VueJS<span className="linha">|</span>SQL<span className="linha">|</span>Gulp<span className="linha">|</span>Webpack<span className="linha">|</span>MongoDB<span className="linha">|</span>
+                                <br/>
+                                Git / Github<span className="linha">|</span>Jest.</p>
                                 <p className="skill">Principais tecnologias: <br />
-                                ReactJs <span className="linha">|</span> NodeJs <span className="linha">|</span> ReactNativeJs</p>
+                                ReactJs<span className="linha">|</span>NodeJs<span className="linha">|</span>ReactNativeJs</p>
                             </div>
                         </div>
                     </div>

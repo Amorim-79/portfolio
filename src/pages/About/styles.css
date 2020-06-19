@@ -43,11 +43,16 @@ p {
     text-align: justify;
 }
 
+.group-skills {
+    word-wrap: break-word;
+}
+
 .skill {
     margin-bottom: 20px;
 }
 
 .button-cv {
+    max-width: 95%;
     width: 622px;
     height: 76px;
     margin-top: 40px;
