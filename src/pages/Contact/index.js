@@ -80,9 +80,7 @@ export default function Contact() {
                     </div>
 
                     <div className="box-phone">
-                        <p>Celular: 11 95715-3822</p>
-
-                        <a className="button-contact" target="_blank" href="https://api.whatsapp.com/send?phone=5511957153822">
+                        <a className="button-contact" target="_blank" href={process.env.REACT_APP_WHATSAPP}>
                             Whatsapp
                         </a>
                     </div>
