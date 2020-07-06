@@ -15,6 +15,7 @@ h1 {
 .box-email {
     width: 524px;
     height: 537px;
+    display: none;
 
     margin-right: 80px;
 

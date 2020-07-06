@@ -19,7 +19,7 @@ export default function Home() {
                     <div className="content">
                         <img className="photo-perfil" src={perfilImg} alt="Foto de perfil"/>
                         <div className="container-info">
-                            <p>ReactJs  <span className="linha">|</span>  NodeJs  <span className="linha">|</span>  ReactNativeJs</p>
+                            <p>ReactJs  <span className="linha">|</span>  ReactNativeJs</p>
                         
                             <div className="group-social">
                                 <a target="_blank" href="https://github.com/Amorim-79">

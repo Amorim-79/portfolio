@@ -16,22 +16,22 @@ export default function About() {
                         <div className="box-content">
                             <p className="text-about">
                                 Meu nome é Pedro, sou um estudante de Ciência da computação cursando atualmente o 5º semestre.
-                                Tenho focado meus estudos em desenvolvimento fullstack para web e mobile,
+                                Tenho focado meus estudos em desenvolvimento Front-end para web e mobile,
                                 a cada dia buscando por novos conhecimentos e desafios para alcançar meus objetivos como desenvolvedor.
                             </p>
                         </div>
 
                         <div className="box-content" >
                             <div className="group-skills">
-                                <p className="skill">Conhecimentos: <br />
-                                HTML5/CSS3<span className="linha">|</span>Javascript<span className="linha">|</span>Bootstrap
+                                <h3>Conhecimentos:</h3>
+                                <p className="skill">HTML5/CSS3<span className="linha">|</span>Javascript<span className="linha">|</span>Bootstrap
                                 <span className="linha">|</span>jQuery<span className="linha">|</span>
                                 <br/>
                                 VueJS<span className="linha">|</span>SQL<span className="linha">|</span>Gulp<span className="linha">|</span>Webpack<span className="linha">|</span>MongoDB<span className="linha">|</span>
                                 <br/>
-                                Git / Github<span className="linha">|</span>Jest.</p>
-                                <p className="skill">Principais tecnologias: <br />
-                                ReactJs<span className="linha">|</span>NodeJs<span className="linha">|</span>ReactNativeJs</p>
+                                Git / Github<span className="linha">|</span>Jest<span className="linha">|</span>NodeJs<span className="linha">|</span>.</p>
+                                <h3>Principais tecnologias:</h3>
+                                <p className="skill">ReactJs<span className="linha">|</span>ReactNativeJs<span className="linha">|</span>Typescript</p>
                             </div>
                         </div>
                     </div>
